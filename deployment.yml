@@ -46,4 +46,4 @@ spec:
       targetPort: 8081
       nodePort: 32700
   selector:
-    app.kubernetes.io/name: kube-job
+    app: kube-job
